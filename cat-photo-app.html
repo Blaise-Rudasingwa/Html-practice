@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Nesting means placing one html elt inside another html elt -->
+        <!-- Indentation means adding some spaces before a nested elt to make html more clear and readable -->
+        <!-- An html elt is the whole piece of html including the opening tag, closing tag and the content inside but some elt dont have closing tag and they're called void elts --> 
+        <!-- Attributes are extra info you give to an html elt to control its behaviour -->
+        <!-- Section elt is used to group different parts of the page that are similar --> 
+        <!-- og(open graph tags)They control how the website appears on different social media platforms --> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="A cat photo website">
+        <meta name="author" content="Blaise Rudasingwa">
+        <meta property="og:title" content="Cat photo app">
+        <meta property="og:description" content="A cat photo website">
+        <meta property="og:image" content="https://www.bing.com/images/search?view=detailV2&ccid=Jtju833g&id=4BFABC3978F6E47164BB987893663190BF6700CB&thid=OIP.Jtju833ghKktbh8dDWoJqwHaLH&mediaurl=https%3a%2f%2fcdn.pixabay.com%2fphoto%2f2023%2f07%2f21%2f16%2f25%2fcat-8141938_1280.jpg&cdnurl=https%3a%2f%2fthf.bing.com%2fth%2fid%2fR.26d8eef37de084a92d6e1f1d0d6a09ab%3frik%3dywBnv5AxZpN4mA%26pid%3dImgRaw%26r%3d0&exph=1280&expw=853&q=A+cat+photo&mode=overlay&FORM=IQFRBA&ck=1EDAF55C00C5ED2E26098C033EEE22BE&selectedIndex=0&idpp=serp">
+        <title>Cat Photo App</title>
+    </head>
+    <body>
+        <main>
+        <!-- It represents the main content of the body of a document -->
+          <h1>Cat Photo App</h1>
+          <section>
+            <h2>Cat Photos</h2>
+            <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg" target="_blank">cute cats</a> online!</p>
+            <p>See more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a> in our gallery.</p>
+            <!-- href means where the clickable link will open and target=_blank means that the link has to open in new tab -->
+            <a href="https://freecatphotoapp.com"> 
+              <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on it's back">
+            </a>
+            <!-- src(source)attribute is used to specify the image's URL and the alt attribute is used by screen readers to explain what the image is all about or if the image fails to load its displayed in its place -->
+          </section>
+          <section>
+            <h2>Cat Lists</h2>
+            <h3>Things cats love:</h3>
+            <ul>
+                <li>catnip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+            <figure>
+              <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+              <figcaption>Cats <em>love</em> lasagna</figcaption>
+            </figure>
+            <h3>Top 3 things cats hate:</h3>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch.">
+                <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+            </figure>
+         </section>
+        </main>
+        <footer>
+            <p>No Copyright - <a href="https://www.freecodecamp.org" target="_blank">freecodecamp.org</a></p>
+        </footer>
+    </body>>
+</html>
